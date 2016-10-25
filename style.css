@@ -1,0 +1,31 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	width: 1024px;
+	margin: 0px auto;
+}
+
+.logo{
+	float: left;
+}
+
+.logo-circle{
+
+}
+
+.phone{
+	font-size: 24px;
+	font-weight: 700;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+nav ul li {
+	float:left;
+	list-style: none;
+}
