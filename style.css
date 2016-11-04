@@ -8,12 +8,17 @@ p {
  }
 
 .container{
-	width: 1024px;
+	min-width:970px;
+	max-width:1024px;
 	margin: 0px auto;
 }
 
 .left{
 	float: left;
+}
+
+.right{
+	float: right;
 }
 
 .phone{
@@ -55,7 +60,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover{
+nav ul li a:hover{
 	color:#004bb1;
 	text-decoration:none;
 }
@@ -72,7 +77,7 @@ a:hover{
 }
 
 .banner-text{
-	width: 682px;
+	width: 622px;
 	height: 396px;
 	background: #114f90;
 	margin-top: 60px;
@@ -102,8 +107,8 @@ a:hover{
 
 .banner-img {
 	position: absolute;
-	margin-left: 690px;
-	margin-top: 398px;
+	margin-left: 655px;
+	margin-top: 430px;
 }
 
 .content-h1 {
@@ -158,6 +163,25 @@ div.content-color div p {
 	margin-top: 73px;
 	padding-top: 25px;
 	color: #fff;
+	-webkit-text-fill-color: #ffffff; 
+}
+
+.content-h1-Order {
+	color: #1e1e1e;
+	margin-top: 55px;
+	margin-bottom: 40px;
+}
+
+.content-h1-feedback {
+	color: #1e1e1e;
+	margin-top: 55px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.content-text span {
+	color: #004bb1;
+	font-weight: 700;
 }
 
 .footerTextCentre{
@@ -169,7 +193,7 @@ div.content-color div p {
 }
 
 .creating {
-	width: 1000px;
+	width: 970px;
 	height: 200px;
 }
 
@@ -179,8 +203,109 @@ div.content-color div p {
 	font-weight: 700;
 }
 
+.marginTop45 {
+	margin-top: 45px;
+}
 
+.paddingTop45 {
+	padding-top: 45px;
+}
 
+.marginTopOne {
+	margin-top: 170px;
+}
+
+.borderRed {
+	border: 1px solid red;
+}
+
+.serviceImg {
+	width: 310px;
+	margin-top: 10px;
+}
+
+.serviceTxt {
+	width: 645px;
+}
+
+.service-h1 {
+	color: #000;
+	margin-top: 0px;
+}
+
+.order {
+	width:250px;
+	top:72px;
+	left:357px;
+	font-size:25px;
+	font-family:"Open Sans Bold";
+	color:#fff;
+	text-transform:uppercase;
+	display:block;
+	padding:16px 0px;
+	background:#004bb1;
+	text-decoration:none;
+	text-align:center;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	-khtml-border-radius:4px;
+	margin-top: 35px;
+}
+
+.order:hover {
+	background-color: #013a87;
+}
+
+.order:active{
+	background-color:#012c66;
+}
+
+.borderTop {
+	border-top: 1px solid #e7e7e7;
+}
+
+.lineFeedback {
+	border-top: 2px solid #004bb1;
+	margin-top: 73px;
+}
+
+.comment{
+	margin-top: 30px;
+}
+
+.commentH2 {
+	margin-top: 7px;
+	margin-bottom: 40px;
+	color: #004bb1;
+}
+
+.comment div.right {
+	width:920px;
+}
+
+.comment div.left {
+	margin-left: 10px;
+}
+
+.comment div.right div.top div {
+	float: left;
+	font-size: 12px;
+}
+
+.comment div.right div.top {
+	margin-bottom: 25px;
+}
+
+.comment div.right div.top div.time {
+	margin-left: 10px;
+}
+
+.comment div.right div.bottom {
+	font-weight: 400;
+}
 
 
 
