@@ -122,6 +122,43 @@
 	
 	<div class="clear"></div>
 	
+	<div id="createElem">
+		<!--
+		<div class="left">
+			<img src="images/avatar.png" alt="avatar" />
+		</div>
+		<div class="right">
+			<div class="top">
+				<div class="name"><b>Анастасия Иванова</b></div>
+				<div class="time">04.11.2016 21:17</div>
+			</div>
+			<div class="clear"></div>
+			<div class="bottom">
+				Спасибо! Все оперативно сделали.
+			</div>
+		</div>
+		-->
+	</div>
+	
+	<div class="clear"></div>
+
+	<div class="container lineFeedback"></div>
+	
+	<div class="container">
+		<h2 class="commentH2">Оставить комментарий</h2>
+	</div>
+
+	<div class="container">
+		<form id="sendFeedback">
+			<textarea id="textArea" class="feedbackText" required name="Text" placeholder="Введите текст комментария"></textarea>
+			<input id="inputName" class="feedbackname left" type="text" name="name" placeholder="Ваше имя">
+			<input id="inputEmail" class="feedbackemail left" type="text" name="email" placeholder="Ваш email">
+			<button class="button" onclick="sendFeedback()">Оставить комментарий</button>
+		</form>
+	</div>
+
+	<div class="clear"></div>
+
 	<footer>
 		<div class="footer">
 			<div class="container">
@@ -136,6 +173,18 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript">
+		function sendFeedback() {
+			var textArea = document.getElementById("textArea");
+			var inputName = document.getElementById("inputName");
+			var inputEmail = document.getElementById("inputEmail");
+			
 
+			alert(textArea.value);
+			alert(inputName.value);
+			alert(inputEmail.value);
+
+		}
+	</script>
 </body>
 </html>
